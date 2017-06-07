@@ -1,0 +1,238 @@
+*{
+  box-sizing: border-box;
+  /*outline: 1px solid rgba(0, 0 ,255, .1);*/
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #1E8BC3;
+}
+
+body{
+  align-items: center;
+  align-content: center;
+  background-color: #f2f1e8;
+  color: #131511;
+  /*width: 1024px;*/
+
+}
+
+.top-logo{
+  position:absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+}
+
+.content{
+  display: block;
+  width=100%;
+  border-style: none;
+}
+
+.endless{
+  background-image: url('./images/product-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 614px;
+  margin-right: 12px;
+  height: 230px;
+  text-align: left;
+  background-color: #2B3026;
+  color: #F2F1E8;
+  text-align: left;
+  vertical-align: bottom;
+  padding 10px 10px 10px 10px;
+  margin-bottom: 10px;
+
+}
+
+.sets{
+  background-image: url('./images/product-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 206px;
+  height: 230px;
+  margin-right: 12px;
+  background-color: #2B3026;
+  color: #F2F1E8;
+  text-align: left;
+  vertical-align: bottom;
+  padding 10px 10px 10px 10px;
+  margin-bottom: 10px;
+
+}
+
+.textures{
+  background-image: url('./images/product-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 205px;
+  height: 230px;
+  background-color: #2B3026;
+  color: #F2F1E8;
+  text-align: left;
+  vertical-align: bottom;
+  padding 10px 10px 10px 10px;
+  margin-bottom: 10px;
+
+}
+
+.tea{
+  background-image: url('./images/product-4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 206px;
+  margin-top: 12px;
+  margin-right: 12px;
+  height: 190px;
+  background-color: #2B3026;
+  color: #F2F1E8;
+  text-align: left;
+  vertical-align: bottom;
+  padding 10px 10px 10px 10px;
+  margin-bottom: 10px;
+
+}
+
+.jars{
+  background-image: url('./images/product-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 205px;
+  height: 190px;
+  margin-top: 12px;
+  margin-right: 12px;
+  background-color: #2B3026;
+  color: #F2F1E8;
+  text-align: left;
+  vertical-align: bottom;
+  padding 10px 10px 10px 10px;
+  margin-bottom: 10px;
+
+}
+
+.wasabi{
+  background-image: url('./images/product-6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 412px;
+  height: 190px;
+  margin-top: 12px;
+  margin-right: 12px;
+  background-color: #2B3026;
+  color: #F2F1E8;
+  text-align: left;
+  vertical-align: bottom;
+  padding 10px 10px 10px 10px;
+  margin-bottom: 10px;
+
+}
+
+.sippin{
+  background-image: url('./images/product-7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 206px;
+  height: 190px;
+  margin-top: 12px;
+  background-color: #2B3026;
+  color: #F2F1E8;
+  text-align: left;
+  vertical-align: bottom;
+  padding 10px 10px 10px 10px;
+  margin-bottom: 10px;
+
+}
+
+.img-caption{
+  text-align: left;
+  background-color: #2B3026;
+  color: #F2F1E8;
+  padding: 10px 10px 10px 10px;
+  /*bottom: 20px;*/
+  margin-bottom: 10px;
+}
+
+.heading{
+  background-color: #f2f1e8;
+  color: #131511;
+  font-family: 'Lora';
+  text-align: center;
+  font-size: 60px;
+
+}
+
+.sub-heading{
+  background-color: #f2f1e8;
+  color: #131511;
+  font-family: 'Lora';
+  text-align: center;
+  font-size: 36px;
+  margin-top: -40px;
+}
+
+.footer{
+  margin-top: 15px;
+  padding: 25px 0px 25px 20px;
+  width: 100%;
+  background-color: #2B3026;
+  color: #f2f1e8;
+  font-size: 16px;
+}
+
+.body-content{
+
+}
+
+a.header-link:active{
+  color: #968772;
+}
+
+a.header-link:link{
+  color: #2b2f26;
+
+}
+
+a.header-link:visited{
+  color: #2b2f26;
+
+}
+
+a.header-link:hover{
+  color: #cd5d67;
+
+}
+
+.nav-list{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  border: 0px;
+  border-style: none;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  text-decoration: underline;
+  padding: 18px 35px 18px 35px;
+}
+
+.nav{
+  border-style: none;
+  background-color: #ffffff;
+  color: ##2b2f26;
+  border-collapse: collapse;
+  position: sticky;
+  top: 10px;
+
+}
+
+.nav-list > li{
+  width: 200px;
+  text-align: center;
+}
